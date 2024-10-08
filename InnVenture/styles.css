@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+    color: black;
+    padding: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Two-column layout styling */
+.two-column-layout {
+    display: flex; /* Make the sections side by side */
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: white;
+    gap: 30px; /* Optional: adds space between the two columns */
+}
+
+.column {
+    width: 48%; /* Each column takes up half of the available space */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.column h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.column p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.column ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.welcome-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.cta-button:hover {
+    background-color: purple;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header .logo-container {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header .logo-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    margin-top: 0;
+}
+
+.column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+}
+
+.column ul li::before {
+    content: "\2022";
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-right: 10px;
+}
+
+.cta-button {
+    background-color: purple;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.cta-button:hover {
+    background-color: purple;
+}
+
+
+footer {
+    background-color: plum;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.benefits {
+    padding: 20px;
+}
+
+.benefits ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.benefits li {
+    margin-bottom: 20px;
+}
+
+.benefits h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.getting-started {
+    padding: 20px;
+}
+
+.getting-started ol {
+    list-style: decimal;
+    margin: 0;
+    padding: 0;
+}
+
+.getting-started li {
+    margin-bottom: 10px;
+}
+
+.call-to-action {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.call-to-action p {
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px; /* Limit the width of the contact info */
+    margin: 0 auto;   /* Center the contact info */
+    padding: 10px 0;
+}
+
+.banner {
+    background-color: purple; /* Choose your preferred background color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-logo {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .site-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  nav {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  .seller-benefits {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .seller-benefits h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .seller-benefits p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .seller-benefits ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .seller-benefits li {
+    margin-bottom: 10px;
+  }
+  
+  .seller-benefits li i {
+    color: #666;
+    margin-right: 10px;
+  }
+  
+  .join-now-button {
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .join-now-button:hover {
+    background-color: purple;
+  }
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.button-group {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+

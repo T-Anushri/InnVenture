@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace - LocalGems Connect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="logo.png" alt="LocalGems Connect Logo" class="logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">For Artisans</a></li>
+                <li><a href="#">Premium Features</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search for products..." aria-label="Search">
+            <button type="submit" class="search-button">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Explore Our Marketplace</h1>
+
+        <div class="product-filters">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="nail-art">Nail Art</option>
+                <option value="mehendi">Mehendi</option>
+                <option value="cakes">Cakes</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </div>
+
+        <div class="product-list">
+            <div class="product-item">                
+                <a href="product_detail.html">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Product Name 1</h2>
+                <p>Short description of product 1.</p>
+                <p class="price">Price: $XX.XX</p>
+                <button class="cta-button">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <a href="product_detail.html">
+                <img src="product2.jpg" alt="Product 2">
+                <h2>Product Name 2</h2>
+                <p>Short description of product 2.</p>
+                <p class="price">Price: $XX.XX</p>
+                <button class="cta-button">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <a href="product_detail.html">
+                <img src="product3.jpg" alt="Product 3">
+                <h2>Product Name 3</h2>
+                <p>Short description of product 3.</p>
+                <p class="price">Price: $XX.XX</p>
+                <button class="cta-button">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <a href="product_detail.html">
+                <img src="product4.jpg" alt="Product 4">
+                <h2>Product Name 4</h2>
+                <p>Short description of product 4.</p>
+                <p class="price">Price: $XX.XX</p>
+                <button class="cta-button">Add to Cart</button>
+            </div>
+            <!-- Add more product items as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LocalGems Connect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
